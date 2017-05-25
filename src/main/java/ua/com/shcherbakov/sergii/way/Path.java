@@ -1,6 +1,6 @@
 package ua.com.shcherbakov.sergii.way;
 
-import ua.com.shcherbakov.sergii.utisl.Viewer;
+import ua.com.shcherbakov.sergii.utils.Viewer;
 import java.util.Arrays;
 
 /**
@@ -66,7 +66,7 @@ public class Path {
         int currentWeight = minCost[idCity];
         if(currentWeight == HAVE_NOT_WEIGHT){
             return true;
-        } else if(currentWeight > newWeight && currentWeight > 0) {
+        } else if((currentWeight > newWeight) && (currentWeight > 0)) {
             return true;
         }
         return false;

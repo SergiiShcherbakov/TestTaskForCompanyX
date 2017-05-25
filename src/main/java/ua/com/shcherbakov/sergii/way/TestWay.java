@@ -1,6 +1,6 @@
 package ua.com.shcherbakov.sergii.way;
 
-import ua.com.shcherbakov.sergii.utisl.Viewer;
+import ua.com.shcherbakov.sergii.utils.Viewer;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -30,7 +30,7 @@ public class TestWay {
 
     public void findMinimalCostWayAndPrintIt(Viewer console) {
         for (Path path : paths) {
-            console.WriteLine( path.getMinimalCost()+"");
+            console.writeLine( path.getMinimalCost()+"");
         }
     }
 

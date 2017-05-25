@@ -1,7 +1,7 @@
 package ua.com.shcherbakov.sergii.brackets;
 
-import ua.com.shcherbakov.sergii.utisl.Viewer;
-import ua.com.shcherbakov.sergii.utisl.ConsoleViewer;
+import ua.com.shcherbakov.sergii.utils.Viewer;
+import ua.com.shcherbakov.sergii.utils.ConsoleViewer;
 
 import java.math.BigInteger;
 

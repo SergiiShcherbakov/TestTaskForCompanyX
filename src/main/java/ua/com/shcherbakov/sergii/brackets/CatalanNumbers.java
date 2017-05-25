@@ -20,7 +20,7 @@ public class CatalanNumbers {
             throw new IllegalArgumentException(" input value is \"" +
             n + "\" but expected value more ore equal 0 ");
         } else if (n == 0) {
-            return  BigInteger.valueOf(1L);
+            return  BigInteger.ONE;
         } else if(n < 34 ) {
             return BigInteger.valueOf(
                     ((4L * n) - 2L) * (getNumberByN(n - 1L).longValue()) / (n + 1L)) ;

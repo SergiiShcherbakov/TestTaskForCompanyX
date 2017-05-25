@@ -2,8 +2,8 @@ package ua.com.shcherbakov.sergii.way;
 
 import org.junit.Test;
 import org.mockito.Mockito;
-import ua.com.shcherbakov.sergii.utisl.ConsoleViewer;
-import ua.com.shcherbakov.sergii.utisl.Viewer;
+import ua.com.shcherbakov.sergii.utils.ConsoleViewer;
+import ua.com.shcherbakov.sergii.utils.Viewer;
 
 /**
  * Created by Sergii Shcherbakov on 24.05.2017.
@@ -32,7 +32,7 @@ public class integrationTest {
         // when
         main.main( viewer );
         // then
-        Mockito.verify(viewer).WriteLine("4");
+        Mockito.verify(viewer).writeLine("4");
     }
 
  @Test
@@ -68,7 +68,7 @@ public class integrationTest {
         // when
         main.main( viewer );
         // then
-        Mockito.verify(viewer, Mockito.times(2)).WriteLine("4");
+        Mockito.verify(viewer, Mockito.times(2)).writeLine("4");
     }
 
     @Test
@@ -105,7 +105,7 @@ public class integrationTest {
         // when
         main.main( viewer );
         //then
-        Mockito.verify(viewer).WriteLine("3");
-        Mockito.verify(viewer).WriteLine("2");
+        Mockito.verify(viewer).writeLine("3");
+        Mockito.verify(viewer).writeLine("2");
     }
 }

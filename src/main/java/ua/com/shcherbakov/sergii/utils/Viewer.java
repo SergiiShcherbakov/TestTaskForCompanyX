@@ -1,4 +1,4 @@
-package ua.com.shcherbakov.sergii.utisl;
+package ua.com.shcherbakov.sergii.utils;
 
 /**
  * Created by Sergii Shcherbakov on 23.05.2017.
@@ -11,7 +11,7 @@ public interface Viewer {
 
     void testWriteLine(String line );
 
-    void WriteLine(String line );
+    void writeLine(String line );
 
     String readLine();
 

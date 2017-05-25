@@ -1,6 +1,6 @@
 package ua.com.shcherbakov.sergii.way;
 
-import ua.com.shcherbakov.sergii.utisl.Viewer;
+import ua.com.shcherbakov.sergii.utils.Viewer;
 
 import java.util.ArrayList;
 import java.util.List;

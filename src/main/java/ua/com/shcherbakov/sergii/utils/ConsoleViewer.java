@@ -1,4 +1,4 @@
-package ua.com.shcherbakov.sergii.utisl;
+package ua.com.shcherbakov.sergii.utils;
 
 import java.util.Scanner;
 
@@ -22,7 +22,7 @@ public class ConsoleViewer implements Viewer {
 
 
     @Override
-    public void WriteLine(String line) {
+    public void writeLine(String line) {
         System.out.print(  line + System.lineSeparator());
     }
 

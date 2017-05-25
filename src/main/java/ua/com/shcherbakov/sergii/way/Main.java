@@ -1,7 +1,7 @@
 package ua.com.shcherbakov.sergii.way;
 
-import ua.com.shcherbakov.sergii.utisl.ConsoleViewer;
-import ua.com.shcherbakov.sergii.utisl.Viewer;
+import ua.com.shcherbakov.sergii.utils.ConsoleViewer;
+import ua.com.shcherbakov.sergii.utils.Viewer;
 
 /**
  * Created by Sergii Shcherbakov on 23.05.2017.
