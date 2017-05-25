@@ -8,7 +8,7 @@ import ua.com.shcherbakov.sergii.utils.Viewer;
  *
  * The class findMinimalCostInAllTestsAndPrintIt program.
  * The program is test number 2
- * Tee test takes data from console and find the minimal cost betveen several points.
+ * Tee test takes data from console and find the minimal cost between several points.
  *
  * input format:
  *      s [the number of tests <= 10]

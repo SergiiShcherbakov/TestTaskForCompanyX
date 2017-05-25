@@ -10,8 +10,8 @@ import java.util.Arrays;
  *
  */
 public class City {
+    final int id;
     String name;
-    int id;
     int[] neighboursId;
     int[] neighboursCost;
 
@@ -85,9 +85,9 @@ public class City {
     }
 
     private String neighboursPrint() {
-        StringBuffer result = new StringBuffer();
+        StringBuilder result = new StringBuilder();
         for (int i = 0; i < neighboursId.length; i++) {
-            result.append(neighboursId[i] + " " + neighboursCost[i] + " ,");
+            result.append(neighboursId[i]).append(" ").append(neighboursCost[i]).append(" ,");
         }
         result.deleteCharAt(result.length()-1);
         return result.toString();

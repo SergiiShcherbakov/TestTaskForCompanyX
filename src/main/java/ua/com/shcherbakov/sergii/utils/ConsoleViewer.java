@@ -12,7 +12,7 @@ public class ConsoleViewer implements Viewer {
     /**
      * the method need fot testing,
      * you can use it like logger and remove inside logic after finish
-     * @return string line that inputted to console.
+     *  string line that inputted to console.
      */
     @Override
     public void testWriteLine(String line) {
@@ -45,12 +45,11 @@ public class ConsoleViewer implements Viewer {
     public long readLongAndCheck(){
        String input = readLine();
         try {
-            long result = Long.parseLong(input);
-            return result;
+            return Long.parseLong(input);
         } catch (NumberFormatException e){
             // not long value
-            System.out.println("input \"" + input + "\" but expected long" );
-            System.out.println("please try again" );
+            writeLine(String.format( "input \"%s\" but expected long" , input ));
+            writeLine("please try again" );
             return readLongAndCheck();
         }
     }
@@ -64,11 +63,10 @@ public class ConsoleViewer implements Viewer {
     public int readIntAndCheck(){
        String input = readLine();
         try {
-            int result = Integer.parseInt(input);
-            return result;
+            return Integer.parseInt(input);
         } catch (NumberFormatException e){
             // not long value
-            System.out.println("input \"" + input + "\" but expected integer" );
+            System.out.println(String.format( "input \"%s\" but expected integer" , input ) );
             System.out.println("please try again" );
             return readIntAndCheck();
         }

@@ -21,7 +21,8 @@ public class Main {
         int countOfBrackets = viewer.readIntAndCheck();
         BigInteger answer = expressions.getCount( countOfBrackets );
 
-        System.out.println("From " + countOfBrackets + " pair of brackets can build " +
-                answer + " variants right expressions");
+        System.out.println(
+                String.format("From %d pair of brackets can build %s variants right expressions",
+                        countOfBrackets, answer));
     }
 }
