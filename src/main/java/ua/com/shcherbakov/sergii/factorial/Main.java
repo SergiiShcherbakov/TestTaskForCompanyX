@@ -2,7 +2,7 @@ package ua.com.shcherbakov.sergii.factorial;
 
 /**
  * Created by Sergii Shcherbakov on 21.05.2017.
- * Te class starts decision for the third test.
+ * The class starts decision for the third test.
  * The class uses class factorial to find count digits from factorial of 100.
  */
 public class Main {

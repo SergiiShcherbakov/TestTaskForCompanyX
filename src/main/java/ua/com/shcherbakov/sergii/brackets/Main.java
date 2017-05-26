@@ -8,6 +8,7 @@ import java.math.BigInteger;
 /**
  * Created by Sergii Shcherbakov on 21.05.2017.
  * Te class starts first decision for the first test.
+ * The test finds count of right brackets expressions from n numbers brackets.
  * The class uses:
  *      Viewer to readLine data from console.
  *      And class CorrectBracketsExpressions to find count right brackets expressions.
